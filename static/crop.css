@@ -1,0 +1,300 @@
+body{
+    margin-top: 0%;
+    background-color: #170b0b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Poppins;
+    color: rgb(244, 222, 184);
+}
+.top{
+    height: 70px;
+}
+.bg{
+    min-height: 500px;
+    height: fit-content;
+    background-image: url(newbg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bx{
+    min-height: 450px;
+    height: fit-content;
+    font-family: Poppins;
+    box-shadow: 5px 5px 5px rgb(243, 213, 160);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #170b0b;
+    padding: 2% 3% 0% 3%;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #170b0b99;
+    text-align: center;
+}
+.quote{
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(243, 213, 160);
+    letter-spacing: 0.09em;
+}
+.quote:hover{
+    background-color:rgb(243, 213, 160, 0);
+}
+  .form__field {
+    width: 11vw;
+    min-width: 100px;
+    font-size: 16px;
+    height: 30px;
+    background: none;
+    text-decoration-color: #170b0b;
+    border-bottom: 3px rgb(70, 67, 67) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .form__field::placeholder {
+    color: #542e2e9f;
+    font-size: 10px;
+  }
+  .form__field:focus::placeholder {
+    visibility: hidden;
+
+  }
+  h3{
+    color: rgba(244, 222, 184, 0.61);
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 400;
+    padding: 0 4%;
+  }
+  .box {
+    background-color: rgba(244, 222, 184, 0.692);
+    padding: 10px;
+    min-width: 250px;
+    width: 30vw;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flexbox;
+    border-radius: 0px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 1%;
+  }
+
+  .form__group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  }
+
+
+  #blog{
+    background-color: rgba(244, 222, 184, 0.692);
+    color: #170b0b;
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 12px;
+    display: none;
+  }
+h1{
+text-align: center;
+}
+
+#lowK, #lowP, #lowN ,#highK ,#highP ,#highN {
+  display: none;
+}
+
+#crop_id{
+  font-size: 12px;
+}
+#state_id, #district_id, #season_id{
+    font-size: 12px;
+}
+.w{
+    color: rgba(244, 222, 184, 1);
+    text-align: left;
+    font-weight: 500;
+    margin-left: 0%;
+}
+.w:hover{
+    background-color: rgba(243, 213, 160, 0);
+}
+.btn{
+    cursor: pointer;
+    text-align:center;
+    border:rgba(244, 222, 184, 0.7) solid 2px; 
+    color:rgba(244, 222, 184, 0.61);
+    border-radius:100px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+    background-color: #170b0bdd;
+}
+.btn:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 2px rgb(243, 213, 160);
+}
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+header {
+    height: 70px;
+    background-color: #170b0b;
+    margin-top: 0px;
+    width: 100vw;
+    text-align: right;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5%;
+    position:absolute;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: Poppins;
+     line-height: 1.80857;
+     font-weight: normal;
+     padding-right: 20px;
+
+}
+nav {
+    background-color: #170b0b;
+}
+.top{
+    height: 70px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #170b0b;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+}
+#last{
+    margin-right: 5px;
+}
+span {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+header span:hover{
+    color: rgb(221, 163, 54);
+    font-weight: 500;
+    cursor: pointer;
+}
+span:hover a{
+    color: rgb(221, 163, 54);
+    font-weight: 500;
+}
+span{
+    background-color: #170b0b;
+}
+i:hover{
+   color: rgb(244, 222, 184);
+    
+}
+.icon:hover{
+    background-color: rgba(244, 222, 184, 0);
+    color: rgb(244, 222, 184);
+}
+a:link {
+    color: rgb(244, 222, 184);
+    text-decoration-line: none;
+    font-weight: bolder;
+}
+a:active{
+    color: rgb(221, 163, 54);
+    font-weight: 500;
+}
+
+a:visited {
+    color: rgb(244, 222, 184);
+    text-decoration-line: none;
+    font-weight: bolder;
+}
+a:active {
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+
+.topnav .icon {
+    display: none;
+  }
+.topnav{
+    padding-right: 20px;
+}
+  @media screen and (max-width: 700px) {
+    .topnav span {display: none;}
+    .topnav span.icon {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 700px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive span.icon {
+      
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive span {
+      display: block;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .topnav.responsive{
+        margin-top: 280px;
+
+    }
+    .topnav.responsive .dropdown-content{
+        margin-right: 110px;
+    }
+  }
+
+  footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#footlogo{
+    height: 50px;
+}
+#foottxt{
+    height: 40px;
+    
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
